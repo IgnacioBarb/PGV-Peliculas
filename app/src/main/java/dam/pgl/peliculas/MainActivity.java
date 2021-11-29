@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -49,6 +50,20 @@ public class MainActivity extends AppCompatActivity {
 
         new ObtenerPeliculasAsync().execute(endPointPeliculas);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Intent intent = new Intent(getApplicationContext(), DetallesPeliculas.class);
+                intent.putExtra("id", String.valueOf (listPeliculas.get(position).getId() ) );
+                intent.putExtra("titulo", listPeliculas.get(position).getTitle() );
+                intent.putExtra("imagen", listPeliculas.get(position).getPoster_path() );
+                intent.putExtra("sinopsis", listPeliculas.get(position).getOverview() );
+
+                Log.d("test", "Pasando id " + listPeliculas.get(position).getId() );
+
+                startActivity(intent);
+            }
+        });
     }
 
     public boolean onCreateOptionsMenu(Menu menu){
