@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Peliculas">
         <activity
+            android:name=".acercadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actores"
+            android:exported="false" />
+        <activity
             android:name=".DetallesPeliculas"
             android:exported="true" />
         <activity

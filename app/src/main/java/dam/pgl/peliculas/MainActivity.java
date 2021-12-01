@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.mnuAcerca:
-                //intent = new Intent(getApplicationContext(), AcercaActivity.class);
-                //startActivity(intent);
+                intent = new Intent(getApplicationContext(), acercadeActivity.class);
+                startActivity(intent);
                 return true;
             case R.id.mnuSalir:
                 finish();

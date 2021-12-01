@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Clase/PGL/Actividades/Peliculas/app/src/main/res/layout/activity_acercade.xml" value="0.37726449275362317" />
+        <entry key="..\:/Clase/PGL/Actividades/Peliculas/app/src/main/res/layout/activity_actores.xml" value="0.3845108695652174" />
         <entry key="..\:/Clase/PGL/Actividades/Peliculas/app/src/main/res/layout/activity_configuracion.xml" value="0.34375" />
         <entry key="..\:/Clase/PGL/Actividades/Peliculas/app/src/main/res/layout/activity_detalles_peliculas.xml" value="0.25" />
         <entry key="..\:/Clase/PGL/Actividades/Peliculas/app/src/main/res/layout/activity_main.xml" value="0.18642350557244175" />
+        <entry key="..\:/Clase/PGL/Actividades/Peliculas/app/src/main/res/layout/lista_actores.xml" value="0.3845108695652174" />
         <entry key="..\:/Clase/PGL/Actividades/Peliculas/app/src/main/res/layout/lista_pelicula.xml" value="0.22" />
         <entry key="..\:/Clase/PGL/Actividades/Peliculas/app/src/main/res/menu/menu_main.xml" value="0.1" />
       </map>
